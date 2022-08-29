@@ -1,7 +1,7 @@
 #titulo
 {
 	position: absolute;
-	top: 15%;
+	top: 21%;
 	transform: translateY(0%);
 	transform: translateX(+20%);
 }
@@ -9,16 +9,9 @@
 #cv
 {
 	position: absolute;
-	top: 28%;
+	top: 35%;
 	transform: translateY(0%);
 	transform: translateX(+78%);
-}
-
-#linkes
-{
-	position: absolute;
-	top: 200%;
-	transform: translateY(0%);
 }
 
 #topBar
@@ -41,12 +34,22 @@
 	transform: translateY(0%);
 }
 
+#explic
+{
+	margin-left: 0px;
+	height: 400px;
+	width: 1030px;
+	position: absolute;
+	top: 43%;
+	transform: translateX(20%);
+}
+
 #git
 {
 	margin-left: 0px;
 	height: 400px;
 	width: 1030px;
 	position: absolute;
-	top: 35%;
+	top: 45%;
 	transform: translateX(20%);
 }

@@ -6,17 +6,33 @@
 </head>
 <body>
 	<h1 id="titulo">Olá! Este é um site que abrange 3 tópicos, Controle de Versão, TDD e Flask</h1>
-	<div id="linkes">
-		<p><a href="controle.html">Controle de Versão</a></p>
-		<p><a href="teste.html">Teste</a></p>
-		<p><a href="flask.html">Flask</a></p>
-	</div>
 	<h1 id="cv">Controle de Versão</h1>
-	<p id="git">&nbsp;&nbsp;O controle de versão é um sistema feito com a finalidade de registrar mudanças feitas em um determinado arquivo. Ele é utilizado não somente na programação, mas também na edição de documentos de textos, imagens, vídeos e projetos dos mais diversos tipos. Existem diversas ferramentos que podem ser classificadas como locais, centralizadas e distribuídas.
-	Os sistemas locais armazenam todas as alterações feitas em uma máquina, também armazena as diferenças permitindo que dados antigos sejam restaurados. Um exemplo disso é o RES (Revision Control System).
-	Os sistemas centralizados permite que vários desenvolvedores sejam capazes de trabalharem juntos em um mesmo projeto, este sistema possui um servidor central que é responsável pelo armazenamento das versões dos arquivos. Exemplos deste sistema são o CVS e o Subversion.
-	Os sistemas distribuídos funcionam de forma diferentes dos citados anteriormente, ao invés de tirar cópias das últimas versões, o repositório inteiro é copiado, para que assim, seja possível restaurar todo o servidor caso algo ocorra. Ele permite várias pessoas trabalhar em conjunto e também possibilita a criação de fluxos de trabalhos diferentes. Exemplos: git, mercural e Darcs.
-	</p>
+	<div id="git">
+		<p>&emsp;O controle de versão é um sistema feito com a finalidade de registrar mudanças feitas em um determinado arquivo. Ele é utilizado não somente na programação, mas também na edição de documentos de textos, imagens, vídeos e projetos dos mais diversos tipos. Existem diversas ferramentos que podem ser classificadas como locais, centralizadas e distribuídas.
+		Os sistemas locais armazenam todas as alterações feitas em uma máquina, também armazena as diferenças permitindo que dados antigos sejam restaurados. Um exemplo disso é o RES (Revision Control System).
+		Os sistemas centralizados permite que vários desenvolvedores sejam capazes de trabalharem juntos em um mesmo projeto, este sistema possui um servidor central que é responsável pelo armazenamento das versões dos arquivos. Exemplos deste sistema são o CVS e o Subversion.
+		Os sistemas distribuídos funcionam de forma diferentes dos citados anteriormente, ao invés de tirar cópias das últimas versões, o repositório inteiro é copiado, para que assim, seja possível restaurar todo o servidor caso algo ocorra. Ele permite várias pessoas trabalhar em conjunto e também possibilita a criação de fluxos de trabalhos diferentes. Exemplos: git, mercural e Darcs.
+		</p>
+		<p>&emsp;Para um melhor entendimento sobre o controle de versão, será utilizado o git como exemplo para a explicação.
+		Apesar de possuir uma grande diversidade de comandos, os principais que serão utilizados são:
+		<br>
+		git init: Inicializa um repositório.
+		<br>
+		git add: Adiciona o repositório para a staged area.
+		<br>
+		git commit: salva as alterações feitas.
+		<p></p>
+		E em caso o usuário esteja utilizando de forma remota, ele usará também.
+		<p></p>
+		git clone (link do repositório): para obter uma cópia
+		<br>
+		git push (link do repositório): para enviar os arquivos para o repositório principal.
+		</p>
+		&emsp;Uma forma organizada bastante utilizada no git é o uso de ramificações, no qual o usuário utiliza o comando git branch (nome), para criar uma cópia dos documentos em uma ramificação, git checkout, para troca de branch e por fim, git merge para mesclar tudo em um arquivo só. Isso também serve como uma forma de evitar erros que podem ocorrer por parte de ambos os programadores.
+	</div>
+	<div id="teste">
+		<p></p>
+	</div>
 	<div id="topBar"></div>
 	<div id="downBar"></div>
 </body>
