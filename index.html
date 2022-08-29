@@ -6,7 +6,8 @@
 </head>
 <body>
 	<h1 id="titulo">Olá! Este é um site que abrange 3 tópicos, Controle de Versão, TDD e Flask</h1>
-	<h1 id="cv">Controle de Versão</h1>
+	<h2 id="cv">Controle de Versão</h2>
+	<img id="cvIMG" src="https://cadernoscicomp.com.br/wp-content/uploads/2017/07/CVS-172.png">
 	<div id="git">
 		<p>&emsp;O controle de versão é um sistema feito com a finalidade de registrar mudanças feitas em um determinado arquivo. Ele é utilizado não somente na programação, mas também na edição de documentos de textos, imagens, vídeos e projetos dos mais diversos tipos. Existem diversas ferramentos que podem ser classificadas como locais, centralizadas e distribuídas.
 		Os sistemas locais armazenam todas as alterações feitas em uma máquina, também armazena as diferenças permitindo que dados antigos sejam restaurados. Um exemplo disso é o RES (Revision Control System).
@@ -15,23 +16,67 @@
 		</p>
 		<p>&emsp;Para um melhor entendimento sobre o controle de versão, será utilizado o git como exemplo para a explicação.
 		Apesar de possuir uma grande diversidade de comandos, os principais que serão utilizados são:
-		<br>
-		git init: Inicializa um repositório.
-		<br>
-		git add: Adiciona o repositório para a staged area.
-		<br>
-		git commit: salva as alterações feitas.
 		<p></p>
-		E em caso o usuário esteja utilizando de forma remota, ele usará também.
-		<p></p>
-		git clone (link do repositório): para obter uma cópia
+		* git init: Inicializa um repositório.
 		<br>
-		git push (link do repositório): para enviar os arquivos para o repositório principal.
+		* git add: Adiciona o repositório para a staged area.
+		<br>
+		* git commit: salva as alterações feitas.
+		<p></p>
+		E em caso o usuário esteja utilizando o git de forma remota, ele usará também.
+		<p></p>
+		* git clone (link do repositório): para obter uma cópia
+		<br>
+		* git push (link do repositório): para enviar os arquivos para o repositório principal.
 		</p>
+	</div>
+	<div id="git2">
 		&emsp;Uma forma organizada bastante utilizada no git é o uso de ramificações, no qual o usuário utiliza o comando git branch (nome), para criar uma cópia dos documentos em uma ramificação, git checkout, para troca de branch e por fim, git merge para mesclar tudo em um arquivo só. Isso também serve como uma forma de evitar erros que podem ocorrer por parte de ambos os programadores.
 	</div>
+	<img id="bugIMG" src="data:image/jpeg;base64,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">
 	<div id="teste">
+		<h2>Teste</h2>
+		&emsp;O TDD, Desenvolvimento Orientado por Teste, traduzido do inglês, Teste Driven Development, é uma prática de Desenvolvimento de software utilizado que visa
+		verificar se o código está funcionando de maneira correta no programa.
+		&emsp;Vale lembrar que o teste é diferente de depuração. O teste é um processo de desenvolvimento como um todo. Eles são feitos por meio de ferramentas específicas que automatizam o processo e códigos, que possui a função de verificar se a função está gerando o valor esperado ou não.
+		Os testes apenas verificam se o código está funcionando da maneira desejada, não o meio o utilizado de se chegar a ele.
+		<br>
+		&emsp;Já Depuração, diferente de teste, é o processo de se consertar algo que já sabe estar quebrado, nele é feito uma verificação passo-a-passo em busca de onde está localizado o problema e, caso seja necessário, serão feitas alterações no código do programa.
+		<br>
+	</div>
+	<div id="teste2">
+		&emsp;O teste vai desde um nível de componente até um grande projeto, o qual possuirá grupos específicos para teste. Para cada um, existem diferentes técnicas e abordagens para as mais diversas situações.
+		<br>
+		&emsp;Para a criação de um programa é necessário ter 2 coisas em mente, a verificação, onde o software deverá funcionar da forma desejada, e validação, em que assegura que o software foi criado e atende aos requisitos do cliente.
+		<br>
+		&emsp;Como uma melhor forma de evitar erros, são feitos os testes alfa e beta, pois é praticamente impossível o desenvolvedor prever como o cliente utilizará o software.
+		Os testes alfa são realizados na instalação do desenvolvedor por um grupo menor de pesssoas em um ambiente controlado. Já os testes beta são realizados nas instalações do usuário sem a presença de desenvolvedor, caso encontre um erro, o mesmo será relatado.
+	</div>
+	<div id="framework">
+		<h2>Framework</h2>
+		&emsp;O framework é uma estrutura de códigos que por objetivo facilitar a vida do desenvolvedor, trazendo novas funções, aumentando a produtivida e diminuindo o tempo gasto, além de trazer uma maior segurança para aqueles que irão utilizar o programa.
+		Muitos acham que framework e biblioteca são a mesma coisa, mas na verdade são coisas bastante diferentes. Enquanto em uma biblioteca é o desenvolvedor que está no controle e escolhe quando a usar, no framework é ele quem escolhe quando chamar o código.
+		Os framework possuem uma facilidade de se encaixar em qualquer contexto, o que por fim garante o bom funcionamento do código. Muitos dos frameworks utilizam a orientação a objetos com herança, polimorfismo e abstração.
+		<br>
+		Os frameworks possuem diversas vantagens, dentre elas:
 		<p></p>
+		* Código aberto, o que permite que qualquer um com conhecimentos sobre o código seja capaz de alterá-lo;
+		<br>
+		* Se encaixam em muitos contextos diferentes;
+		<br>
+		* Concede maior agilidade e segurança no código do programador;
+		<br>
+		* E permite maior legibilidade no código.
+		<p></p>
+		Todavia os frameworks também possuem as suas desvantagens, são elas:
+		<p></p>
+		* Dificuldade na sua configuração;
+		<br>
+		* Utilizar vários frameworks podem comprometer o código;
+		<br>
+		* Alguns são extensos e complexos, gerando uma barreira no entendimento do programado;
+		<br>
+		* Nem sempre são necessários, e por vezes podem acabar prejudicando no funcionamento do produto final.
 	</div>
 	<div id="topBar"></div>
 	<div id="downBar"></div>
