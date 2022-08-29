@@ -1,0 +1,34 @@
+#titulo
+{
+	position: absolute;
+	top: 15%;
+	transform: translateY(0%);
+	transform: translateX(+20%);
+}
+
+#linkes
+{
+	position: absolute;
+	top: 200%;
+	transform: translateY(0%);
+}
+
+#topBar
+{
+	background: blue;
+	height: 150px;
+ 	width: 1500px;
+	position: absolute;
+	top: -500%;
+	transform: translateY(0%);
+}
+
+#downBar
+{
+	background: blue;
+	height: 150px;
+ 	width: 1500px;
+	position: absolute;
+	top: 1760%;
+	transform: translateY(0%);
+}
